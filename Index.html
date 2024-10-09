@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraform Coalition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            /* Full viewport height */
+        }
+
+        .page-container {
+            margin-top: 80px;
+            /* Adjust this value to set your desired top margin */
+        }
+
+        /* Container for GIF and SVG overlay */
+        .gif-container {
+            position: relative;
+            width: 60%;
+            /* Container width */
+            max-width: 309px;
+            /* 60% of 515px */
+            margin: 0 auto;
+            /* Center the container */
+            overflow: hidden;
+            /* Ensure content doesn't spill out */
+        }
+
+        .gif-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            /* Creates a 1:1 aspect ratio */
+        }
+
+        .gif-image {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            /* Adjust this to change GIF size independently */
+            height: auto;
+        }
+
+        /* Position the SVG mask on top of the GIF */
+        .mask {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120%;
+            /* Adjust this to change SVG size independently */
+            height: auto;
+            pointer-events: none;
+        }
+
+        /* Styling for "Terraform Coalition" */
+        header h1 {
+            font-size: 10pt;
+            letter-spacing: 13pt;
+            color: #BFBFBF;
+            font-weight: 300;
+            /* Light font */
+            text-align: center;
+            margin-top: -4px;
+        }
+
+        /* Styling for "We See Earth Differently" */
+        .tagline {
+            font-size: 7.4pt;
+            letter-spacing: 1.5pt;
+            color: #7F7F7F;
+            font-weight: 400;
+            /* Regular font */
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Section styling */
+        section {
+            padding: 40px 0;
+        }
+
+        /* Content styling */
+        .content {
+            font-size: 8pt;
+            letter-spacing: 0.6pt;
+            color: #757474;
+            line-height: 2.3;
+            width: 41%;
+            /* Updated width */
+            margin: 0px auto;
+            text-align: justify;
+            text-transform: uppercase;
+            /* Capitalizes all text */
+        }
+
+        /* Footer styling */
+        footer {
+            font-size: 6.5pt;
+            letter-spacing: 0.6pt;
+            color: #666363;
+            line-height: 0.8;
+            text-align: left;
+            /* Aligns text to the left */
+            background-color: #000;
+            padding: 0px;
+            margin-top: 0px;
+            width: 41%;
+            /* Matches content width */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer a {
+            color: #666363;
+            /* Adjusts link color */
+            text-decoration: none;
+        }
+
+        .coming-soon {
+            font-size: 5pt;
+            letter-spacing: 4pt;
+            text-align: center;
+            color: #7F7F7F;
+            /* Matching your existing text color */
+            text-transform: uppercase;
+            padding: 20px 0;
+            font-family: 'Rajdhani', sans-serif;
+            /* Matching your existing font */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #000;
+            /* Matching your page background */
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+
+        <div class="gif-container">
+            <div class="gif-wrapper">
+                <img src="earth.gif" alt="GIF Image" class="gif-image">
+                <img src="mask.svg" alt="SVG Mask" class="mask">
+            </div>
+        </div>
+
+        <header>
+            <h1>TERRAFORM COALITION</h1>
+            <div class="tagline">"WE SEE EARTH DIFFERENTLY"</div>
+        </header>
+
+        <section>
+            <div class="content">
+                </br></br>
+                Every day, nearly 400,000 new lives take root on planet Earth. Global population is set to surge past 10
+                billion before growth begins to stabilize. Depletion—ruthlessly outpacing recovery—defines our most
+                critical challenge. Humanity has overstretched Earth's resources by a staggering 70%—effectively using
+                1.7 Earths.
+                </br></br>
+                The limits of growth have been crossed. The challenge has fundamentally changed, but we still haven’t
+                realized the stark reality. Conservation—our presumed strategy—was an opportunity lost half a century
+                ago when we crossed the 4 billion mark. Thus, We haven't just fallen behind on sustainability challenges; 
+                we've missed the alarm entirely.
+                </br></br>
+                This, however, is not a story of doom. It is the inception of the greatest endeavor humanity will ever
+                have to undertake: to co-create with Earth the evolution of our life-support systems. What nature has
+                meticulously crafted over eons, we must now heal and augment within the course of our lifetimes. Welcome
+                to the dawn of terraforming—ecosystem as a service.
+            </div>
+        </section>
+
+        <footer>
+            </br></br></br>
+            <p>THE TERRAFORM COALITION - YEAR: 02025</p>
+            <p>GENERATION 400 - THE FOUNDERS</p>
+            <p>WE SEE EARTH DIFFERENTLY</p>
+            <p><a href="http://WWW.TFC.EARTH">WWW.TFC.EARTH</a> </p>
+        </footer>
+    </div>
+    <div class="coming-soon">COMING SOON</div>
+
+</body>
+
+</html>
